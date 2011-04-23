@@ -31,11 +31,11 @@
 		
 		<div id="methods"><div class="content">
 			<% for (var group in methods){ %>
-			<h3><a href="#<%= group %>"><%= group %></a></h3>
+			<h3><a href="#<%= group %>"><%=: group | replace:'-','.' %></a></h3>
 
 			<ul>
 				<% methods[group].forEach(function(method){ %>
-				<li><a href="#<%= group %>:<%= method %>"><%= method %></a></li>
+				<li><a href="#<%= group %>:<%= method %>"><%=: method | replace:'-','.' %></a></li>
 				<% }) %>
 			</ul>
 	
