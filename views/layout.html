@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MooTools Docs</title>
+		
+		<link href="/stylesheets/style.css" rel="stylesheet"> 
+		<link href="/stylesheets/github.css" rel="stylesheet"> 
+		<link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/mootools/1.3.1/mootools-yui-compressed.js"></script>
+		
+	</head>
+	<body>
+		
+		<div id="menu"><div class="content">
+			<% for (var title in menu){ %>
+			<h3><%= title %></h3>
+	
+			<ul>
+				<% menu[title].forEach(function(page){ %>
+				<li><a href="/<%= package %>/<%= page %>"><%=: page | replace:/^(\w+\/)/ %></a></li>
+				<% }) %>
+			</ul>
+	
+			<% } %>
+		</div></div>
+
+		<div id="content"><div class="content">
+			<%- body %>		
+		</div></div>
+		
+		<div id="methods"><div class="content">
+			<% for (var group in methods){ %>
+			<h3><a href="#<%= group %>"><%= group %></a></h3>
+
+			<ul>
+				<% methods[group].forEach(function(method){ %>
+				<li><a href="#<%= group %>:<%= method %>"><%= method %></a></li>
+				<% }) %>
+			</ul>
+	
+			<% } %>
+
+		</div></div>
+		
+	</body>
+</html>
