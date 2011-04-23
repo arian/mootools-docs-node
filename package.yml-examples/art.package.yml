@@ -1,0 +1,44 @@
+name: "ART"
+
+version: "0.8.7"
+
+web: "[mootools.net](http://mootools.net)"
+
+description: "The graphics framework."
+
+license: "[MIT License](http://mootools.net/license.txt)"
+
+copyright: "&copy; [MooTools](http://mootools.net)"
+
+authors: "[Valerio Proietti](http://mad4milk.net)"
+
+sources:
+  - "Source/ART.js"
+  - "Source/ART.SVG.js"
+  - "Source/ART.VML.js"
+  - "Source/ART.Base.js"
+  - "Source/ART.Path.js"
+  - "Source/ART.Shapes.js"
+  - "Source/ART.Font.js"
+  - "Fonts/Moderna.js"
+  - "Fonts/Moderna.Bold.js"
+
+docs:
+  ART:
+    - "Docs/ART/ART.md"
+    - "Docs/ART/ART.Group.md"
+    - "Docs/ART/ART.Path.md"
+    - "Docs/ART/ART.Shape.md"
+    - "Docs/ART/ART.Transform.md"
+  Modes: 
+    - "Docs/Modes/ART.Base.md"
+    - "Docs/Modes/ART.SVG.md"
+    - "Docs/Modes/ART.VML.md"
+  Shapes:
+    - "Docs/Shapes/ART.Font.md"
+    - "Docs/Shapes/ART.Shapes.md"
+    - "Docs/Shapes/ART.Text.md"
+    
+
+
+docsindex: "Docs/ART/ART.md"

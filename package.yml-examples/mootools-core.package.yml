@@ -1,0 +1,80 @@
+name: "Core"
+
+exports: "mootools-core.js"
+
+web: "[mootools.net](http://mootools.net)"
+
+description: "MooTools, The JavaScript framework"
+
+license: "[MIT License](http://mootools.net/license.txt)"
+
+copyright: "&copy; [MooTools](http://mootools.net)"
+
+authors: "[MooTools Development Team](http://mootools.net/developers)"
+
+sources:
+  - "Source/Core/Core.js"
+  - "Source/Types/Array.js"
+  - "Source/Types/String.js"
+  - "Source/Types/Number.js"
+  - "Source/Types/Function.js"
+  - "Source/Types/Object.js"
+  - "Source/Types/Event.js"
+  - "Source/Browser/Browser.js"
+  - "Source/Class/Class.js"
+  - "Source/Class/Class.Extras.js"
+  - "Source/Slick/Slick.Parser.js"
+  - "Source/Slick/Slick.Finder.js"
+  - "Source/Element/Element.js"
+  - "Source/Element/Element.Style.js"
+  - "Source/Element/Element.Event.js"
+  - "Source/Element/Element.Dimensions.js"
+  - "Source/Fx/Fx.js"
+  - "Source/Fx/Fx.CSS.js"
+  - "Source/Fx/Fx.Tween.js"
+  - "Source/Fx/Fx.Morph.js"
+  - "Source/Fx/Fx.Transitions.js"
+  - "Source/Request/Request.js"
+  - "Source/Request/Request.HTML.js"
+  - "Source/Request/Request.JSON.js"
+  - "Source/Utilities/Cookie.js"
+  - "Source/Utilities/JSON.js"
+  - "Source/Utilities/DOMReady.js"
+  - "Source/Utilities/Swiff.js"
+
+docs:
+  Core:
+    - "Docs/Core/Core.md"
+  Browser:
+    - "Docs/Browser/Browser.md"
+  Types:
+    - "Docs/Types/Array.md"
+    - "Docs/Types/String.md"
+    - "Docs/Types/Number.md"
+    - "Docs/Types/Function.md"
+    - "Docs/Types/Object.md"
+    - "Docs/Types/Event.md"
+  Class:
+    - "Docs/Class/Class.md"
+    - "Docs/Class/Class.Extras.md"
+  Element:
+    - "Docs/Element/Element.md"
+    - "Docs/Element/Element.Style.md"
+    - "Docs/Element/Element.Event.md"
+    - "Docs/Element/Element.Dimensions.md"
+  Fx:
+    - "Docs/Fx/Fx.md"
+    - "Docs/Fx/Fx.Tween.md"
+    - "Docs/Fx/Fx.Morph.md"
+    - "Docs/Fx/Fx.Transitions.md"
+  Request:
+    - "Docs/Request/Request.md"
+    - "Docs/Request/Request.HTML.md"
+    - "Docs/Request/Request.md.md"
+  Utilities:
+    - "Docs/Utilities/Cookie.md"
+    - "Docs/Utilities/JSON.md"
+    - "Docs/Utilities/DOMReady.md"
+    - "Docs/Utilities/Swiff.md"
+
+docsindex: "Docs/Intro.md"

@@ -7,6 +7,10 @@ exports.packages = {
 	'more': {
 		path: '../mootools-more',
 		folder: 'Docs'
+	},
+	'art': {
+		path: '../art',
+		folder: 'Docs'
 	}
 };
 
